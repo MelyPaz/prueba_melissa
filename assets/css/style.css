@@ -1,0 +1,145 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+header {
+  background-image: url('../img/hero-meli2.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left;
+  width: 100%;
+  padding-top: 25rem;
+  padding-bottom: 6rem;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.ligero h1 {
+  vertical-align: bottom;
+}
+
+.bg-oscuro {
+  background-color: #000000;
+}
+
+.marca {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  color: #FFFFFF;
+  text-transform: uppercase;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+h1 {
+  font-family: 'Oswald', sans-serif;
+  font-weight: bold;
+  font-size: 72px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+h2 {
+  font-family: 'Oswald', sans-serif;
+  font-weight: bold;
+  font-size: 52px;
+  text-transform: uppercase;
+  color: #373A3C;
+}
+
+.ligero {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 200;
+  color: #FFFFFF;
+}
+
+hr {
+  background-color: #FFFFFF;
+  width: 40%;
+}
+
+.black {
+  background-color: #000000;
+  width: 20%;
+}
+
+.blanca {
+  background-color: #FFFFFF;
+  width: 20%;
+}
+
+h3 {
+  font-weight: 600;
+  font-size: 25px;
+}
+
+h4 {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 600;
+  font-size: 25px;
+}
+
+h5 {
+  font-weight: 300;
+  font-size: 25px;
+}
+
+p {
+  font-size: 1em;
+  font-weight: 400;
+  color: #373A3C;
+}
+
+.experiencia {
+  display: inline-block;
+}
+
+.titulo-tarjeta {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 400;
+  font-size: 23px;
+  color: #373A3C;
+}
+
+.texto-tarjeta {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  font-size: 1em;
+  color: #373A3C;
+}
+
+@media screen and (max-width: 576px) {
+
+  #navmobile {
+    padding: 0 4px 2px 4px;
+  }
+
+  .card-deck {
+    align-items: left;
+  }
+
+  .icons {
+    display: inline-block;
+  }
+
+  header {
+    background-image: url('../img/hero-meli.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    padding-top: 20rem;
+    padding-bottom: 5rem;
+  }
+
+  .card {
+    margin: 2rem 0;
+  }
+
+}
